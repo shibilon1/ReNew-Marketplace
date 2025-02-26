@@ -12,7 +12,7 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: #F5F5F7; /* Light Gray */
+    background-color: #bcf4c8; /* Light Green */
 }
 
 a {
@@ -21,7 +21,7 @@ a {
 
 header {
     text-align: center;
-    background-color: #000000; /* Black */
+    background-color: #3b965c; /* Dark Green */
     color: #FFFFFF; /* White */
     padding: 8px 20px;
     display: flex;
@@ -91,7 +91,7 @@ header a {
     right: -250px;
     width: 250px;
     height: 100%;
-    background-color: #F5F5F7; /* Light Gray */
+    background-color: #bcf4c8; /* Light Green */
     transition: right 0.3s ease;
     z-index: 1000;
 }
@@ -108,7 +108,7 @@ header a {
 .sidebar ul li a {
     display: block;
     padding: 10px;
-    color: #000000; /* Black */
+    color: #2a8347; /* Darker Green */
     text-decoration: none;
     font-size: 18px;
 }
@@ -126,12 +126,12 @@ header a {
 }
 
 #uncheck {
-    color: #000000; /* Black */
+    color: #2a8347; /* Darker Green */
 }
 
 .add-to-cart {
     padding: 10px 15px;
-    background-color: #000000; /* Black */
+    background-color: #3b965c; /* Dark Green */
     color: #FFFFFF; /* White */
     border: none;
     border-radius: 20px;
@@ -142,12 +142,12 @@ header a {
 }
 
 .add-to-cart:hover {
-    background-color: #7D7F89; /* Gray */
+    background-color: #55a56f; /* Medium Green */
     transform: scale(1.05);
 }
 
 .add-to-cart:focus {
-    outline: 2px solid #ffffff;
+    outline: 2px solid #ffffff; /* White */
     outline-offset: 2px;
 }
 
@@ -155,17 +155,44 @@ header a {
     transform: scale(0.95);
 }
 
+.sidebar ul {
+    list-style-type: none;
+    padding: 20px 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li label {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 10px;
+    color: #2a8347; /* Darker Green */
+    text-decoration: none;
+    font-size: 18px;
+}
+
 .menu-toggle:checked ~ .nav-menu {
     display: none;
 }
 
 .sidebar ul li a:focus {
-    outline: 2px solid #fff;
+    outline: 2px solid #fff; /* White */
 }
 
 .products h3 {
     width: 100%;
     text-align: center;
+}
+
+.sidebar ul li a:active ~ .menu-toggle {
+    display: none;
 }
 
 .menu-toggle:checked ~ .sidebar {
@@ -223,7 +250,7 @@ main {
 
 .product-item {
     background-color: #ffffff; /* White */
-    border: 1px solid #E0E0E0; /* Light Gray */
+    border: 1px solid #83d6a6; /* Medium Light Green */
     padding: 10px;
     text-align: center;
     border-radius: 8px;
@@ -241,7 +268,7 @@ main {
 }
 
 .sidebar-info {
-    background-color: #071952; /* Dark Blue */
+    background-color: #3b965c; /* Dark Green */
     color: #ffffff; /* White */
     padding: 20px;
     border-radius: 8px;
@@ -284,7 +311,7 @@ main {
 }
 
 footer {
-    background-color: #000000; /* Black */
+    background-color: #3b965c; /* Dark Green */
     color: #FFFFFF; /* White */
     text-align: center;
     padding: 10px 0;
@@ -312,7 +339,7 @@ form textarea {
 
 form button {
     padding: 10px;
-    background-color: #000000; /* Black */
+    background-color: #3b965c; /* Dark Green */
     color: #FFFFFF; /* White */
     border: none;
     border-radius: 20px;
@@ -320,11 +347,11 @@ form button {
 }
 
 form button:hover {
-    background-color: #7D7F89; /* Gray */
+    background-color: #55a56f; /* Medium Green */
 }
 
 .about-us {
-    background-color: rgb(210, 210, 215); /* Light Gray */
+    background-color: #bcf4c8; /* Light Green */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -334,7 +361,7 @@ form button:hover {
 
 .about-us h2 {
     text-align: center;
-    color: #071952; /* Dark Blue */
+    color: #2a8347; /* Darker Green */
     margin-bottom: 20px;
 }
 
